@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>__Skew_Transform__</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 150px;
+            padding: 5px;
+            margin: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+        }
+
+        #box1{background-color: lime;}
+        #box1:hover{ transform: skew(45deg);}
+        
+        #box2{background-color: blueviolet;}
+        #box2:hover{ transform: skew(90deg);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">SKEW@45deg</div>
+    <div id="box2" class="box">SKEW@90deg</div>
+    
+</body>
+</html>

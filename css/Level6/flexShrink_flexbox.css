@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.box{
+    height: 200px;
+    width:  200px;
+    border: 3px solid black;
+    margin-right: 5px;
+}
+
+#heading{
+    text-align: center;
+}
+
+#container {
+    height: 600px;
+    width:  600px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid black;
+    background-color: lavender;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+    
+}
+
+
+#box1{ background-color:aqua;}
+#box2{ background-color:blueviolet;}
+#box3{ 
+    background-color:yellow;
+    /*flex-shrink: 4;  Baki ke mukable 4 guna shrink honge */
+    /*flex-shrink: 0;    Sirf baki shrink honge, box3 bahi hoga */
+    flex-shrink: 0.2;  /*Baki ke mukable sirf 0.2 shrink hoga */
+}
+#box4{ background-color:tomato;}

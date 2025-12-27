@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Descendant Selector </title>
+
+    <style>
+        div p{
+            color:red;
+        }
+
+        p{
+            color:aqua;
+        }
+
+        #hola p{
+            color:cadetblue;
+        }
+
+        #divId .classId1{
+            color:brown;
+        }
+
+        #divId .classId2{
+            color:blue;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, facere?</p>
+    </div>
+
+    <p>
+        Lorem ipsum dolor sit amet.
+    </p>
+
+    <div id="hola">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+    </div>
+
+    <div id="divId">
+        <p class="classId1">Lorem, ipsum dolor.</p>
+        <p class="classId2">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+    </div>
+</body>
+</html>
