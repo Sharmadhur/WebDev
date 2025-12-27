@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action Tag</title>
+</head>
+<body>
+    <form action="/contact-me" method="post">
+        <label for="email">UserName: </label>
+        <input type="text" id="email" placeholder="Enter ur Name" required="true"> <br>
+
+        <label for="user_passwd">Password: </label>
+        <input type="password" id="user_passwd"><br>
+
+        <label for="today_date">Date: </label>
+        <input type="date" id="today_date"><br>
+
+        <!-- bina label tag ke bhi label use kar sakte hai -->
+        File: <input type="file"><br>
+        Color: <input type="color"><br>
+        PriceRange: <input type="range"><br>
+        Button: <input type="button" value="pokeMe"><br>
+
+        <!-- for category name = gender, value=Male/Female/Other will be submitted @3:19:00 -->
+        <label for="male_gender">Male:</label>
+        <input type="radio" id="male_gender" name="gender" value="Male"><br>
+
+        <label for="female_gender">Female:</label>
+        <input type="radio" id="female_gender" name="gender" value="Female"><br>
+
+        <label for="other_gender">Other:</label>
+        <input type="radio" id="other_gender" name="gender" value="Other"><br>
+        <p></p>
+
+        <label for="fruit_apple">Apple:</label>
+        <input type="checkbox" id="fruit_apple" name="fruit" value="Apple"><br>
+
+        <label for="fruit_banana">Banana:</label>
+        <input type="checkbox" id="fruit_banana" name="fruit" value="Banana"><br>
+
+        <label for="fruit_cherry">Cherry:</label>
+        <input type="checkbox" id="fruit_cherry" name="fruit" value="Cherry"><br>
+
+        <p></p>
+
+        <label for="fruits">Choose a fruit:</label>
+        <select id="fruits" name="fruits" >
+            <option value="apple">Apple lelo</option>
+            <option value="banana">Banana lelo</option>
+            <option value="cherry">Cherry lelo</option>
+        </select><br>
+
+        <textarea rows="4" cols="40" placeholder="Enter your message here"></textarea><br>
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rklidcZ-aLU?si=Rbq2sB-UQrR6yjDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe width="500" height="400" src="https://commons.wikimedia.org/wiki/Category:Chemistry" frameborder="0"></iframe>
+
+
+        <input type="submit" value="SUBMIT"><br>
+    </form>
+</body>
+</html>
